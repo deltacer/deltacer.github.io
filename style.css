@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+header {
+    margin-top: 12px;
+    background-color: rgba(194, 255, 235, 0.568);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+
+    img {
+        height: 100px;
+        width: 100px;
+
+    }
+
+    h1 {
+        font-size: 50px;
+        padding: 10px;
+        font-family: "Jersey 10", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: rgb(0, 0, 133);
+        text-align: center;
+    }
+
+    .col-md-1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    #contenido_general nav ul {
+        font-size: 28px;
+        font-family: "Jersey 10", sans-serif;
+        text-align: center;
+        color: black;
+        list-style-type: none;
+        margin-top: 28px;
+
+    }
+}
+
+#siglas {
+    margin-top: 30px;
+
+    h2 {
+        background-color: rgba(194, 255, 235, 0.568);
+        border: 2px;
+        margin: 10px;
+        text-align: center;
+        font-family: "Jersey 10", sans-serif;
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 20px;
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        font-optical-sizing: auto;
+    }
+
+    .container-fluid {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    img {
+        width: 64%;
+        height: 36%;
+    }
+
+}
+
+#orientacion {
+    background-color: rgba(194, 255, 235, 0.568);
+    margin: 20px;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    h3 {
+        border: 2px;
+        margin: 10px;
+        text-align: center;
+        font-family: "Jersey 10", sans-serif;
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+
+    ul {
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        font-optical-sizing: auto;
+        text-align: center;
+        list-style-type: none;
+    }
+
+    img {
+        width: 60%;
+    }
+
+    .col-md-6 {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+#conocimientos {
+    .row {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .col-md-4 {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    h4 {
+        background-color: rgba(194, 255, 235, 0.568);
+        border: 2px;
+        margin: 10px;
+        text-align: center;
+        font-family: "Jersey 10", sans-serif;
+        font-size: 40px;
+    }
+
+    ul {
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        font-optical-sizing: auto;
+        text-align: center;
+    }
+
+    img {
+        width: 60%;
+    }
+}
+
+#escuelas {
+    background-color: rgba(194, 255, 235, 0.568);
+    margin: 20px;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+
+    h5 {
+        border: 2px;
+        margin: 10px;
+        text-align: center;
+        font-family: "Jersey 10", sans-serif;
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+
+    ul {
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        font-optical-sizing: auto;
+        text-align: center;
+        list-style-type: none;
+    }
+
+    .iconos_lugar {
+        display: flex;
+        flex-direction: row;
+        text-indent: 10px;
+        line-height: 40px;
+        font-size: 22px;
+        align-items: center;
+    }
+
+    .col-md-6 {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    iframe {
+        width: 60%;
+    }
+}
+
+#post {
+    align-items: center;
+
+    h6 {
+        background-color: rgba(194, 255, 235, 0.568);
+        border: 2px;
+        margin: 10px;
+        text-align: center;
+        font-family: "Jersey 10", sans-serif;
+        font-size: 40px;
+    }
+
+    img {
+        width: 70%;
+    }
+
+    .col-md-4 {
+        align-items: center;
+        text-align: center;
+
+    }
+
+    p {
+        font-size: 20px;
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+        font-optical-sizing: auto;
+        padding: 30px;
+    }
+}
+
+
+#empleo {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    h7{
+        border: 20px;
+        text-align: center;
+        font-family: "Jersey 10", sans-serif;
+        font-size: 40px;
+
+    }
+    
+.container-fluid{
+    margin: 30px;
+    
+}
+    line-height: 25px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    text-align: center;
+    
+    background: rgba(255, 255, 255, 0.68);
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.68) 0%, rgba(194, 255, 235, 0.64) 24%, rgba(194, 255, 235, 0.59) 51%, rgba(194, 255, 235, 0.54) 76%, rgba(255, 255, 255, 0.5) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255, 255, 255, 0.68)), color-stop(24%, rgba(194, 255, 235, 0.64)), color-stop(51%, rgba(194, 255, 235, 0.59)), color-stop(76%, rgba(194, 255, 235, 0.54)), color-stop(100%, rgba(255, 255, 255, 0.5)));
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.68) 0%, rgba(194, 255, 235, 0.64) 24%, rgba(194, 255, 235, 0.59) 51%, rgba(194, 255, 235, 0.54) 76%, rgba(255, 255, 255, 0.5) 100%);
+    background: -o-linear-gradient(left, rgba(255, 255, 255, 0.68) 0%, rgba(194, 255, 235, 0.64) 24%, rgba(194, 255, 235, 0.59) 51%, rgba(194, 255, 235, 0.54) 76%, rgba(255, 255, 255, 0.5) 100%);
+    background: -ms-linear-gradient(left, rgba(255, 255, 255, 0.68) 0%, rgba(194, 255, 235, 0.64) 24%, rgba(194, 255, 235, 0.59) 51%, rgba(194, 255, 235, 0.54) 76%, rgba(255, 255, 255, 0.5) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.68) 0%, rgba(194, 255, 235, 0.64) 24%, rgba(194, 255, 235, 0.59) 51%, rgba(194, 255, 235, 0.54) 76%, rgba(255, 255, 255, 0.5) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1);
+
+}
+
+footer{
+    font-size: 15px;
+    text-align: right;
+    font-family: "Montserrat", sans-serif;
+}
