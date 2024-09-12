@@ -4,6 +4,7 @@
 header {
     margin-top: 12px;
     background-color: rgba(194, 255, 235, 0.568);
+    margin-left: 10px;
     padding: 5px;
     display: flex;
     justify-content: center;
@@ -110,6 +111,7 @@ header {
 }
 
 #conocimientos {
+    padding: 15px;
     .row {
         align-items: center;
         display: flex;
@@ -143,6 +145,7 @@ header {
     }
 }
 
+
 #escuelas {
     background-color: rgba(194, 255, 235, 0.568);
     margin: 20px;
@@ -163,7 +166,7 @@ header {
 
     ul {
         font-family: "Montserrat", sans-serif;
-        font-size: 20px;
+        font-size: 15px;
         font-optical-sizing: auto;
         text-align: center;
         list-style-type: none;
@@ -174,7 +177,7 @@ header {
         flex-direction: row;
         text-indent: 10px;
         line-height: 40px;
-        font-size: 22px;
+        font-size: 18px;
         align-items: center;
     }
 
@@ -191,6 +194,7 @@ header {
 
 #post {
     align-items: center;
+    padding: 30px;
 
     h6 {
         background-color: rgba(194, 255, 235, 0.568);
@@ -225,24 +229,22 @@ header {
 #empleo {
     padding-top: 40px;
     padding-bottom: 30px;
-    h7{
-        border: 20px;
-        text-align: center;
-        font-family: "Jersey 10", sans-serif;
-        font-size: 40px;
-
-    }
-    
-.container-fluid{
-    margin: 30px;
-    
-}
     line-height: 25px;
     font-size: 20px;
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    h7{
+        border: 20px;
+        text-align: center;
+        font-family: "Jersey 10", sans-serif;
+        font-size: 40px;
+    margin-bottom: 40px;
+    }
     
     background: rgba(255, 255, 255, 0.68);
     background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.68) 0%, rgba(194, 255, 235, 0.64) 24%, rgba(194, 255, 235, 0.59) 51%, rgba(194, 255, 235, 0.54) 76%, rgba(255, 255, 255, 0.5) 100%);
@@ -255,8 +257,11 @@ header {
 
 }
 
-footer{
+
+footer {
     font-size: 15px;
     text-align: right;
     font-family: "Montserrat", sans-serif;
+    padding-right: 15px;
 }
+    
